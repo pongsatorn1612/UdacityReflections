@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- git init creat a hidden .git folder to keep track of commits
+But no commit yet because of concern about what user what to commit.
+_________________________________________________________________________

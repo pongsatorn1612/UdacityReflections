@@ -1,0 +1,54 @@
+How did viewing a diff between two version of a file help you spot the bug?
+
+-It is no need for logic or understanding just match picture togather and
+see what diffs. So it is faster and more effective to have a old version 
+around.
+
+How could having easy access to the entire history of a file 
+make you a more efficient programmer in the long term?
+
+-It enables me to undo mistakes and fail experiment.
+To have access to entire hsitory, we can avoid repeat
+the same mistakes.
+
+What do you think are the pros and cons of manually choosing 
+when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+
+-Manually save is easier to understand and clear purpose,
+or even flexible. However, if blackout happens, all the
+works will gone in thin air. So auto save get the 10 points 
+on that matter, even though it is not flexible and tidious sth.
+
+Why do you think some version control systems, 
+like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+-Because of the common use of these vc-systems are different. 
+Google Doc is for word processing, unlikely to have connection 
+between files, not like git for coding. And maybe because of
+the size of file. 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+How can you use the commands git log and git diff 
+to view the history of files?
+
+- In the floder of repo??, type git log with show you versions of 
+file(s), start with the most recent one.
+Git diff compare diff between two files(more??), - sign indicate 
+existance in first version, + sign for second version.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++=
+
+How might using version control make you more confident to 
+make changes that could break something?
+
+- I feel like I can travel back in time, Cooolllll
+But it would be better if it shows IDs of the newer versions of 
+the (checkpoint), not detact my HEAD. Still usefull tho.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Now that you have your workspace set up, 
+what do you want to try using Git for?
+
+- I will use it in class that waiting for me.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
