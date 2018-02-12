@@ -3,3 +3,13 @@ What happens when you initialize a repository? Why do you need to do it?
 - git init creat a hidden .git folder to keep track of commits
 But no commit yet because of concern about what user what to commit.
 _________________________________________________________________________
+
+How is the staging area different from the working directory 
+and the repository? What value do you think it offers?
+
+- I believe it provides otimisation to the init command 
+and make sure user (me) not confuse what will be commit
+and what not. WD is just a normal folder with .git.
+Repository is where data keeped.
+
+________________________________________________________________________
