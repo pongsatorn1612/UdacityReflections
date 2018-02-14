@@ -6,3 +6,9 @@ git remote (-v)-> check special stage refer to repos at Gidhub (URL info).
 git remote add <remote name> <URL of Github repos> -> creat new remote and 
                   link it to Github repos.
 git push <remote> <branch> -> send commits from branch@local to remote@Github.
+git pull <remote> <branch@Github> -> copy commits from branch@Github contain in 
+                  remote repos to local current branch@local
+
+______________________________________________________________________________________________
+
+
