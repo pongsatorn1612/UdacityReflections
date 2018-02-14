@@ -11,4 +11,12 @@ git pull <remote> <branch@Github> -> copy commits from branch@Github contain in
 
 ______________________________________________________________________________________________
 
+Why might you want to always pull changes manually rather than having 
+Git automatically stay up-to-date with your remote repository?
 
+- When work with other people, they push something to GitHub that
+can mess you work up. So, to prevent unwanted change on the local 
+work, manually pull is a great idea.
+
+
+_________________________________________________________________________________--
