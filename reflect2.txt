@@ -2,6 +2,8 @@ What happens when you initialize a repository? Why do you need to do it?
 
 - git init creat a hidden .git folder to keep track of commits
 But no commit yet because of concern about what user what to commit.
+
+git init
 _________________________________________________________________________
 
 How is the staging area different from the working directory 
@@ -13,3 +15,65 @@ and what not. WD is just a normal folder with .git.
 Repository is where data keeped.
 
 ________________________________________________________________________
+
+How can you use the staging area to make sure you have 
+one commit per logical change?
+
+- add only file(s) that involves in a logical change to
+the stage.
+
+git add <file what to commit>
+________________________________________________________________________-
+
+What are some situations when branches would be helpful in keeping 
+your history organized? How would branches help?
+
+- When you what to have many versions of files. Go back to 
+old commits is ineffective since only one version can be
+use at a time. And all change after that will be lost??
+Keep one working and other branch for experiment.
+
+git diff working -> dic and stage
+git diff --staged -> stage and recent commit
+git diff commit1 commit2 -> like that
+_________________________________________________________________________
+
+How do the diagrams help you visualize the branch structure?
+
+- It is very helpful. The answer of the above qut has been reveal.
+If after make change at old commit and go back to the tip of the branch
+That save cannot be seen by anyone, but it is not change other.
+To keep it, create it as a branch by git checkout -d <branch name>.
+
+git branch -> show all branches
+git branch <branch name> -> creat branch
+git checkout <b n> -> go to tip of that branch
+
+__________________________________________________________________________
+
+What is the result of merging two branches together? 
+Why do we represent it in the diagram the way we do?
+
+-Add the fuction of two branch together.
+I fucked up on merge: conflict on game.js
+After follow though the step instruct by git, I was able to 
+commit and merge, but the game just doesn't work anymore.
+
+It like creat a branch but with two parants with their codes.
+
+git merge <branch1> <branch2> -> merge b1 to b2 and update the current branch
+git show <commit ID> -> show different with its parants
+git reset --hard <commit ID> -> 
+git checkout -b <branch name> -> creat new branch at that commit
+
+Note: Branch is just a commit rebel.
+_______________________________________________________________________-
+
+What are the pros and cons of Git’s automatic merging vs. 
+always doing merges manually?
+
+- It saves a lot of time for auto merge but still have to fix 
+conflict by ourselves is kindda confuse.
+
+________________________________________________________________________
+
