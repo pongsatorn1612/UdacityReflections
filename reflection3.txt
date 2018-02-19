@@ -44,3 +44,17 @@ git fetch -> update origin/master, which refers to master branch on Github, to m
              with master branch on GitHub. It creates new bracnh in Local
 git pull -> with fetch and merge master@Github to master@local if out of syn
 
+___________________________________________________________________________________
+
+How would you collaborate without using Git or GitHub? What would be easier, 
+and what would be harder?
+
+- Git help keeps history in a organize way GitHub makes it easiler to coop.
+But for a small level without Git and GitHub should be find and might easiler
+because we dont have to learn a lot of new concept of Git And GitHub
+
+Note: pull request is a merge request to the owner of repos
+      Owner can review, sender can fix so convinent;)
+
+______________________________________________________________________________________
+
