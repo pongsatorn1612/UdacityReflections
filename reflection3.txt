@@ -20,3 +20,15 @@ work, manually pull is a great idea.
 
 
 _________________________________________________________________________________--
+
+Describe the differences between forks, clones, and branches. 
+When would you use one instead of another?
+
+- forks is clone on GitHub only
+  clones copy the repos from Git to Local or Local to another location
+  branches is path of commits
+
+fork button on GitHub -> Clone other people repos into our account with credit?
+
+____________________________________________________________________________________
+
