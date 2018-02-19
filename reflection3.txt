@@ -32,3 +32,15 @@ fork button on GitHub -> Clone other people repos into our account with credit?
 
 ____________________________________________________________________________________
 
+What is the benefit of having a copy of the last known state 
+of the remote stored locally?
+
+- For the next pull or push, git will know about conflicts and updates
+
+Key term: fast-forward merge is moving the rebel that points to old commit(ancestor)
+          to the new commit of desire
+
+git fetch -> update origin/master, which refers to master branch on Github, to match 
+             with master branch on GitHub. It creates new bracnh in Local
+git pull -> with fetch and merge master@Github to master@local if out of syn
+
