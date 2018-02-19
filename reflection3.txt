@@ -55,6 +55,13 @@ because we dont have to learn a lot of new concept of Git And GitHub
 
 Note: pull request is a merge request to the owner of repos
       Owner can review, sender can fix so convinent;)
-
+      To update pull request, have to push the same branch
 ______________________________________________________________________________________
 
+When would you want to make changes in a separate branch 
+rather than directly in master? What benefits does each approach have?
+
+- Make direct change is easiler, but can cause a mess and shutdown 
+a project. So to be safe and sound working on sub branch is saffer.
+
+______________________________________________________________________________
